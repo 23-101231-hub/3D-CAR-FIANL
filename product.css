@@ -21,7 +21,7 @@ body {
 padding-right: 80px;
 padding-left: 120px;
     z-index: 1000;
-    height: 90px; /* اختاري رقم مناسب */
+    height: 90px; 
    
    
   }
@@ -312,7 +312,6 @@ font-weight: 700;
 
 
 .section2{
-    /* padding-left: 100px; */
     display: flex;
     flex-direction: row;
     gap: 150px;
@@ -328,7 +327,7 @@ font-weight: 700;
   align-items: center;
 }
 
-/* Technical Specifications */
+
 .specs-section {
     margin-bottom: 80px;
     display: flex;
@@ -456,7 +455,7 @@ font-weight: 700;
     letter-spacing: -0.382px;
 }
 
-/* Premium Features */
+
 .features-section {
     margin-bottom: 80px;
     display: flex;
@@ -648,7 +647,7 @@ footer {
   
 
 
-/* ===== PRELOADER WITH LOGO ===== */
+
 .preloader{
     position: fixed;
     inset: 0;
@@ -664,12 +663,12 @@ footer {
   }
   
   .preloader-logo{
-    width: 180px;              /* حجم اللوجو */
+    width: 180px;           
     max-width: 70%;
     animation: logoPulse 1.8s ease-in-out infinite;
   }
   
-  /* حركة هادية وفخمة */
+
   @keyframes logoPulse{
     0%{
       opacity: .6;
@@ -724,7 +723,7 @@ footer {
   }
   
 
-  /* ===== BURGER ===== */
+
 .burger{
     display: none;
     flex-direction: column;
@@ -739,7 +738,7 @@ footer {
     border-radius: 2px;
   }
   
-  /* ===== MOBILE NAV ===== */
+
   @media (max-width: 900px){
     .nav-text{
       position: fixed;
@@ -860,7 +859,7 @@ footer {
       z-index: 1;
     }
   
-    /* Show the model clearly */
+    
     #carModel{
       width: min(92vw, 820px);
       height: min(55vh, 520px);
@@ -888,7 +887,7 @@ footer {
     }
   }
   
-  /* ================= MOBILE ================= */
+
   @media (max-width: 600px){
     .hero{
       height: auto;
@@ -897,7 +896,7 @@ footer {
       gap: 18px;
     }
   
-    /* Colors row becomes compact */
+
     .color-container{
       width: 100%;
       flex-wrap: wrap;
@@ -927,7 +926,7 @@ footer {
       padding: 0 6px;
     }
   
-    /* Key part: model must be visible */
+
     #carModel{
       width: 92vw;
       height: 46vh;
@@ -961,19 +960,19 @@ footer {
     }
   }
 
-  /* ================= PAGE RESPONSIVE (EXCEPT FOOTER) ================= */
 
-/* Fix general horizontal overflow on small screens */
+
+
 @media (max-width: 1024px){
   body{
     overflow-x: hidden;
   }
 }
 
-/* ============ TABLET ============ */
+
 @media (max-width: 1024px){
 
-  /* Section 2: text + price */
+
   .section2{
     flex-direction: column;
     gap: 24px;
@@ -990,7 +989,7 @@ footer {
     font-size: 34px;
   }
 
-  /* Section 3: images row */
+
   .section3{
     padding-top: 70px;
     padding-left: 24px;
@@ -1004,7 +1003,7 @@ footer {
     height: auto;
   }
 
-  /* Specs and Features shared padding */
+
   .specs-section,
   .features-section{
     padding-left: 24px;
@@ -1031,7 +1030,7 @@ footer {
     line-height: 30px;
   }
 
-  /* 3 columns -> 2 columns */
+
   .specs-grid,
   .features-grid{
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1052,7 +1051,7 @@ footer {
     gap: 18px;
   }
 
-  /* additional specs row layout: make it wrap */
+
   .spec-row{
     flex-wrap: wrap;
     gap: 10px 16px;
@@ -1075,10 +1074,9 @@ footer {
 }
 
 
-/* ============ MOBILE ============ */
 @media (max-width: 600px){
 
-  /* Section 2 */
+
   .section2{
     padding: 26px 16px 0;
     gap: 18px;
@@ -1093,7 +1091,7 @@ footer {
     font-size: 28px;
   }
 
-  /* Section 3 */
+
   .section3{
     padding-top: 55px;
     padding-left: 16px;
@@ -1106,7 +1104,7 @@ footer {
     height: auto;
   }
 
-  /* Specs and Features */
+
   .specs-section,
   .features-section{
     padding-left: 16px;
@@ -1135,7 +1133,7 @@ footer {
     line-height: 26px;
   }
 
-  /* 3 columns -> 1 column */
+
   .specs-grid,
   .features-grid{
     grid-template-columns: 1fr;
@@ -1165,7 +1163,7 @@ footer {
     line-height: 30px;
   }
 
-  /* Additional specs rows: stacked and readable */
+ 
   .spec-row{
     flex-direction: column;
     align-items: flex-start;

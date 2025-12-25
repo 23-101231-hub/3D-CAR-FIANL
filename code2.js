@@ -7,7 +7,7 @@ function setActiveCircle(selected) {
   selected.classList.add("active");
 }
 
-setActiveCircle(document.querySelector(".circle"));
+setActiveCircle(document.querySelector(".circle4"));
 
 circles.forEach(circle => {
   circle.addEventListener("click", () => {
@@ -79,7 +79,6 @@ const additionalSpecsData = [
   }
 ];
 
-
 const featuresData = [
   {
     img: "imgs/Container.png",
@@ -145,8 +144,6 @@ for (let i = 0; i < featuresData.length; i++) {
   `;
 }
 document.querySelector(".features-grid").innerHTML = featuresOutput;
-
-
 
 
 

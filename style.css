@@ -22,7 +22,7 @@ body {
 padding-right: 80px;
 padding-left: 120px;
     z-index: 1000;
-    height: 90px; /* اختاري رقم مناسب */
+    height: 90px; 
    
    
   }
@@ -112,7 +112,7 @@ align-items: center;
     gap: 40px;
   }
   
-  /* ===== Text ===== */
+
   .gallery-title {
     color: #FFF;
     font-family: "Racing Sans One";
@@ -148,7 +148,7 @@ align-items: center;
     text-decoration: none;
   }
   
-  /* ================= GRID ================= */
+
   .gallery-grid {
     width: 100%;
     display: grid;
@@ -158,7 +158,7 @@ align-items: center;
     align-items: start;
   }
   
-  /* ================= IMAGE ITEMS ================= */
+
   .g-item {
     position: relative;
     background: transparent;
@@ -172,16 +172,16 @@ align-items: center;
     width: 100%;
     height: auto;
     display: block;
-    transform: scale(1.25);          /* الحجم الحالي */
-    transition: filter 0.3s ease;    /* بس تعتيم */
+    transform: scale(1.25);          
+    transition: filter 0.3s ease;    
   }
   
-  /* hover image darken */
+  
   .g-item:hover img {
     filter: brightness(0.75);
   }
   
-  /* hover text center */
+
   .img-label {
     position: absolute;
     top: 50%;
@@ -203,7 +203,7 @@ align-items: center;
     opacity: 1;
   }
   
-  /* ================= POSITIONING ================= */
+
   .g-1 { grid-column: 1 / 2; grid-row: 1 / 3; padding-top: 28px; }
   .g-2 { grid-column: 2 / 3; grid-row: 1 / 2; }
   .g-3 { grid-column: 3 / 4; grid-row: 1 / 2; }
@@ -214,7 +214,6 @@ align-items: center;
 
 
 
-/* ===== OUR LUXURIOUS COLLECTIONS (NO :root) ===== */
 .collections{
     position: relative;
  
@@ -233,7 +232,7 @@ align-items: center;
     
 
   
-  /* Headline */
+ 
   .collections-headline{
     position: absolute;
     left: 6%;
@@ -259,7 +258,7 @@ align-items: center;
     font-weight: 600;
   }
   
-  /* Tabs row */
+
   .collections-tabs{
     position: absolute;
     left: 50%;
@@ -302,7 +301,7 @@ align-items: center;
 
 
 
-  /* ===== CARS GRID SECTION ===== */
+
 .cars{
     margin-top: -148px;
   }
@@ -318,7 +317,7 @@ align-items: center;
     gap: 44px 60px;
   }
   
-  /* Card */
+
   .car-card{
     position: relative;
     overflow: hidden;
@@ -326,17 +325,13 @@ align-items: center;
     background: #282828;
     box-shadow: 8px 11px 19.4px 0 rgba(1, 123, 132, 0.86) inset;
   }
-  
-  /* teal glow border like screenshot */
+
   .car-card::before{
     content:"";
     position:absolute;
     inset: 0;
     border-radius: 12px;
     pointer-events:none;
-    /* box-shadow:
-      0 0 0 1px rgba(86, 232, 245, .35) inset,
-      0 0 22px rgba(86, 232, 245, .28); */
     z-index: 0;
   }
   
@@ -350,50 +345,50 @@ align-items: center;
   }
 
   .car-media .model{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 115%;
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;    
     z-index: 1;
   }
 
 
   .m-media .model{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 100%;
     transform: scale(1.80);
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;    
     z-index: 1;
   }
 
 
   .car-media .model2{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 205%;
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;   
     z-index: 1;
   }
   
 
   .car-media .model3{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 215%;
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;    
     z-index: 1;
   }
 
@@ -528,7 +523,7 @@ font-weight: 600;
     transition: opacity 0.8s ease, transform 0.8s ease;
   }
   
-  /* لما يتفعل */
+
   .why.show{
     opacity: 1;
     transform: translateY(0);
@@ -660,7 +655,7 @@ margin-bottom: 100px;
   
 
 
-  /* MODELS SECTION */
+
  
   
   .models{
@@ -705,7 +700,7 @@ margin-bottom: 100px;
   
   
   
-  /* Card */
+
   .m-card{
     overflow: hidden;
     border-radius: 11px;
@@ -722,7 +717,7 @@ margin-bottom: 100px;
     position: relative;
   }
   
-  /* image area */
+
   .m-media{
     height: 300px;
     display: flex;
@@ -741,28 +736,28 @@ margin-bottom: 100px;
   }
   
   .m-media2 .model2{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 65%;
-    transform: scale(1.5);  /* بدل 0.9 */
+    transform: scale(1.5);  
     transform-origin: center;
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;    
     z-index: 1;
   }
 
   .m-media2 .model3{
-    position: relative;     /* بدل absolute */
+    position: relative;     
     top: 0;
     left: 0;
     transform: none;
     width: 100%;
     height: 62%;
-    transform: scale(1.5);  /* بدل 0.9 */
+    transform: scale(1.5); 
     transform-origin: center;
-    object-fit: contain;    /* يخلي العربية كاملة جوه البوكس */
+    object-fit: contain;    
     z-index: 1;
   }
 
@@ -773,7 +768,7 @@ margin-bottom: 100px;
     filter: drop-shadow(0 20px 28px rgba(0,0,0,.6));
   }
   
-  /* body */
+
   .m-body{
     padding: 18px 22px 24px;
     color: #fff;
@@ -825,7 +820,7 @@ margin-bottom: 100px;
     color: rgba(255,255,255,.95);
   }
   
-  /* footer */
+
   .m-footer{
     display: flex;
     align-items: center;
@@ -1016,7 +1011,7 @@ margin-bottom: 100px;
   
 
 
-/* ===== PRELOADER WITH LOGO ===== */
+
 .preloader{
     position: fixed;
     inset: 0;
@@ -1032,12 +1027,12 @@ margin-bottom: 100px;
   }
   
   .preloader-logo{
-    width: 180px;              /* حجم اللوجو */
+    width: 180px;            
     max-width: 70%;
     animation: logoPulse 1.8s ease-in-out infinite;
   }
   
-  /* حركة هادية وفخمة */
+
   @keyframes logoPulse{
     0%{
       opacity: .6;
@@ -1089,7 +1084,7 @@ margin-bottom: 100px;
   
   
 
-  /* Responsive */
+
   @media (max-width: 900px){
     .models__wrap{
       grid-template-columns: 1fr;
@@ -1100,7 +1095,7 @@ margin-bottom: 100px;
 
 
   
-  /* Responsive */
+
   @media (max-width: 900px){
     .cars-grid{
       grid-template-columns: 1fr;
@@ -1112,7 +1107,7 @@ margin-bottom: 100px;
     }
   }
   
-  /* Responsive */
+
   @media (max-width: 900px){
     .collections-headline{
       left: 50%;
@@ -1141,7 +1136,7 @@ margin-bottom: 100px;
   
 
 
-  /* ================= RESPONSIVE ================= */
+
   @media (max-width: 900px) {
     .gallery-grid {
       grid-template-columns: 1fr 1fr;
@@ -1174,7 +1169,7 @@ margin-bottom: 100px;
   }
   
 
-  /* ===== BURGER ===== */
+
 .burger{
     display: none;
     flex-direction: column;
@@ -1272,9 +1267,9 @@ margin-bottom: 100px;
   }
   
 
-  /* ================= WHY SECTION RESPONSIVE ================= */
 
-/* Tablet */
+
+
 @media (max-width: 1024px){
   .why{
     padding: 80px 40px;
@@ -1307,7 +1302,7 @@ margin-bottom: 100px;
   }
 }
 
-/* Mobile */
+
 @media (max-width: 600px){
   .why{
     padding: 60px 20px;

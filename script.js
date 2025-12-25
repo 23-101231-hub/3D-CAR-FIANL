@@ -33,9 +33,9 @@ whySection.addEventListener("mouseenter", () => {
 
 const preloader = document.getElementById("preloader");
 
-// عايزينه يبان أطول سنة
-const MIN_TIME = 2200; // أقل حاجة 2.2 ثانية
-const MAX_TIME = 3200; // أقصى حاجة 3.2 ثانية
+
+const MIN_TIME = 2200; 
+const MAX_TIME = 3200; 
 
 
 const start = Date.now();
@@ -58,7 +58,7 @@ const searchIcon = document.getElementById("searchIcon");
 const searchBox = document.querySelector(".search-box");
 const searchInput = document.getElementById("searchInput");
 
-// cards اللي هيتفلتروا
+
 const allCards = document.querySelectorAll(
   ".car-card, .m-card, .m-card2"
 );
