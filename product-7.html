@@ -8,10 +8,10 @@
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
+    <div id="preloader" class="preloader">
+        <img src="imgs/logo.png" alt="White Exotics Logo" class="preloader-logo">
+      </div>
     <header>
-        <div id="preloader" class="preloader">
-            <img src="imgs/logo.png" alt="White Exotics Logo" class="preloader-logo">
-          </div>
         <nav class="nav-bar">
 
             <img src="imgs/Gemini_Generated_Image_ezny2dezny2dezny (1) 3.png" alt="">
@@ -70,25 +70,25 @@
 
     <section class="hero">
             <div class="color-container">
-                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="35" viewBox="0 0 53 35" fill="none">
-                    <path d="M17.1592 32.3159L2.00293 17.1597L17.1592 2.00342M4.10796 17.1597H50.4768" stroke="white" stroke-width="4.00682" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg></a>
-          
-              <div class="circle"  data-name="WHITE" data-model="model/2017_mercedes-benz_amg_gt_r.glb"></div>
-              <div class="circle2" data-name="RED"   data-model="model/model2/2017_mercedes-benz_amg_gt_r.glb"></div>
-              <div class="circle3" data-name="GRAY"  data-model="model/model3/2017_mercedes-benz_amg_gt_r.glb"></div>
-              <div class="circle4" data-name="BLACK" data-model="model/model4/2017_mercedes-benz_amg_gt_r.glb"></div>
+              <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="35" viewBox="0 0 53 35" fill="none">
+                <path d="M17.1592 32.3159L2.00293 17.1597L17.1592 2.00342M4.10796 17.1597H50.4768" stroke="white" stroke-width="4.00682" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+           
+              <div class="circle2" data-name="RED"   data-model="model-home/model6/2013_ferrari_458_spider.glb"></div>
+              <div class="circle4" data-name="BLACK" data-model="model-home/model6/model-black/2013_ferrari_458_spider.glb"></div>
+              <!-- <div class="circle5" data-name="YELLOW"  data-model="model-page3/model3/2017_lamborghini_huracan_lp580-2.glb"></div>
+              <div class="circle"  data-name="WHITE" data-model="model-page3/model4/2017_lamborghini_huracan_lp580-2.glb"></div> -->
           
               <div class="text-box">
                 <div class="selected-text">Selected:</div>
-                <div class="color-text">WHITE</div>
+                <div class="color-text">RED</div>
               </div>
             </div>
           
             <div class="img-box">
-              <div class="hero-title">Mercedes-Benz AMG GT</div>
+              <div class="hero-title">Ferrari 458 Spider</div>
           
-              <model-viewer id="carModel" class="model" src="model/2017_mercedes-benz_amg_gt_r.glb" ar ar-modes="webxr scene-viewer quick-look" camera-orbit="90deg 90deg 1m" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+              <model-viewer id="carModel" class="model3" src="model-home/model6/2013_ferrari_458_spider.glb" ar ar-modes="webxr scene-viewer quick-look" camera-orbit="90deg 90deg 1.5m" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
                 <div class="progress-bar hide" slot="progress-bar">
                     <div class="update-bar"></div>
                 </div>
@@ -101,17 +101,17 @@
 
     <div class="main-box">
         <div class="text-box2">
-            <div class="text3">670 HP</div>
+            <div class="text3">760 HP</div>
             <div class="text4">Horsepower</div>
         </div>
 
         <div class="text-box2">
-            <div class="text3">200 MPH</div>
+            <div class="text3">155 MPH</div>
             <div class="text4">Top speed</div>
         </div>
 
         <div class="text-box2">
-            <div class="text3">350 MILES</div>
+            <div class="text3">330 MILES</div>
             <div class="text4">Range</div>
         </div>
 
@@ -122,18 +122,20 @@
     </section>
     
   <section class="section2">
-    <div class="p">Experience the perfect fusion of luxury and 
-         performance <br> with the Nexus GT. Our flagship electric 
-         sports car delivers <br> breathtaking acceleration and br
-          cutting-edge technology.</div>
+    <div class="p">
+        The Ferrari X Series is a luxury SUV lineup 
+         that <br> combines powerful performance, advanced 
+         technology,<br> and premium comfort, making it 
+          perfect <br>for both city driving and long journeys.</div>
 
-    <div class="money">4,800,000 EGP</div>
+    <div class="money">4,200,000 EGP</div>
   </section>
 
 
    <section class="section3">
-    <img src="imgs/image 36.png" alt="">
-    <img src="imgs/image 35.png" alt="">
+    <img src="imgs/image 60.png" alt="">
+    <img src="imgs/image 61.png" alt="">
+
    </section>
 
 
@@ -143,12 +145,11 @@
     <p class="section-subtitle">Every detail engineered for performance, efficiency, and luxury</p>
 </div>
 
-
     <div class="specs-grid"></div>
 
     <div class="additional-specs">
         <h3>Additional Specifications</h3>
-
+   
         <div class="specs-table"></div>
     </div>
 </section>
@@ -228,6 +229,6 @@
   
 </footer>
  
-<script src="code.js"></script>
+<script src="code3.js"></script>
 </body>
 </html>
